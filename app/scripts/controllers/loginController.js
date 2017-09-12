@@ -10,4 +10,7 @@ angular.module('billingPortalApp')
   			$state.go('register');
   		}
   	};
+    login.updateNewUser = function () {
+      $state.go('home');
+    };
   });

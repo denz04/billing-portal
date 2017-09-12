@@ -1,11 +1,19 @@
 <div class="row container">
 	<div class="login-box animated fadeInUp">
 		<div class="box-header">
-			<h2>Log In</h2>
+			<h2>Register</h2>
 		</div>
-		<label for="username">Phone Number</label>
+		<label for="phoneNumber">Phone Number</label>
 		<br/>
-		<input type="number" id="username" ng-model="login.phoneNumber">
+		<input type="number" id="phoneNumber" ng-model="login.phoneNumber">
+		<br/>
+		<label for="username">User Name</label>
+		<br/>
+		<input type="text" id="username" ng-model="login.userName">
+		<br/>
+		<label for="address">Address</label>
+		<br/>
+		<input type="text" id="address" ng-model="login.address">
 		<br/>
 		<!-- <label for="password">Password</label>
 		<br/>

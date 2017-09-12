@@ -28,7 +28,7 @@
     controller: 'loginController',
     controllerAs: 'login'
   })
-  .state('loginError', {
+  .state('register', {
     url: '/register',
     templateUrl: 'views/login/login_error.html',
     controller: 'loginController',
