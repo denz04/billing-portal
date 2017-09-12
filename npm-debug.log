@@ -1,0 +1,160 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData @uirouter/angularjs
+20 silly mapToRegistry name @uirouter/angularjs
+21 silly mapToRegistry scope (from package name) @uirouter
+22 verbose mapToRegistry no registry URL found in name for scope @uirouter
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry data Result {
+25 silly mapToRegistry   raw: '@uirouter/angularjs',
+25 silly mapToRegistry   scope: '@uirouter',
+25 silly mapToRegistry   escapedName: '@uirouter%2fangularjs',
+25 silly mapToRegistry   name: '@uirouter/angularjs',
+25 silly mapToRegistry   rawSpec: '',
+25 silly mapToRegistry   spec: 'latest',
+25 silly mapToRegistry   type: 'tag' }
+26 silly mapToRegistry uri https://registry.npmjs.org/@uirouter%2fangularjs
+27 verbose request uri https://registry.npmjs.org/@uirouter%2fangularjs
+28 verbose request no auth needed
+29 info attempt registry request try #1 at 11:39:42 PM
+30 verbose request id e169f6d0f3557ffd
+31 verbose etag W/"598f87cb-a281"
+32 verbose lastModified Sat, 12 Aug 2017 22:57:15 GMT
+33 http request GET https://registry.npmjs.org/@uirouter%2fangularjs
+34 http 304 https://registry.npmjs.org/@uirouter%2fangularjs
+35 verbose headers { date: 'Mon, 11 Sep 2017 18:09:38 GMT',
+35 verbose headers   via: '1.1 varnish',
+35 verbose headers   'cache-control': 'max-age=0',
+35 verbose headers   etag: 'W/"598f87cb-a281"',
+35 verbose headers   age: '0',
+35 verbose headers   connection: 'keep-alive',
+35 verbose headers   'x-served-by': 'cache-sin18035-SIN',
+35 verbose headers   'x-cache': 'MISS',
+35 verbose headers   'x-cache-hits': '0',
+35 verbose headers   'x-timer': 'S1505153378.430446,VS0,VE840',
+35 verbose headers   vary: 'Accept-Encoding' }
+36 silly get cb [ 304,
+36 silly get   { date: 'Mon, 11 Sep 2017 18:09:38 GMT',
+36 silly get     via: '1.1 varnish',
+36 silly get     'cache-control': 'max-age=0',
+36 silly get     etag: 'W/"598f87cb-a281"',
+36 silly get     age: '0',
+36 silly get     connection: 'keep-alive',
+36 silly get     'x-served-by': 'cache-sin18035-SIN',
+36 silly get     'x-cache': 'MISS',
+36 silly get     'x-cache-hits': '0',
+36 silly get     'x-timer': 'S1505153378.430446,VS0,VE840',
+36 silly get     vary: 'Accept-Encoding' } ]
+37 verbose etag https://registry.npmjs.org/@uirouter%2fangularjs from cache
+38 verbose get saving @uirouter/angularjs to C:\Users\DELL\AppData\Roaming\npm-cache\registry.npmjs.org\_40uirouter_252fangularjs\.cache.json
+39 verbose correctMkdir C:\Users\DELL\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+40 silly fetchNamedPackageData No valid target from cache, forcing network
+41 verbose request uri https://registry.npmjs.org/@uirouter%2fangularjs
+42 verbose request no auth needed
+43 info attempt registry request try #1 at 11:39:43 PM
+44 http request GET https://registry.npmjs.org/@uirouter%2fangularjs
+45 http 200 https://registry.npmjs.org/@uirouter%2fangularjs
+46 verbose headers { 'content-type': 'application/json',
+46 verbose headers   server: 'nginx/1.10.3',
+46 verbose headers   'last-modified': 'Sat, 12 Aug 2017 22:57:15 GMT',
+46 verbose headers   etag: 'W/"598f87cb-a281"',
+46 verbose headers   'content-encoding': 'gzip',
+46 verbose headers   'cache-control': 'max-age=0',
+46 verbose headers   'transfer-encoding': 'chunked',
+46 verbose headers   'accept-ranges': 'bytes',
+46 verbose headers   date: 'Mon, 11 Sep 2017 18:09:40 GMT',
+46 verbose headers   via: '1.1 varnish',
+46 verbose headers   connection: 'keep-alive',
+46 verbose headers   'x-served-by': 'cache-sin18035-SIN',
+46 verbose headers   'x-cache': 'MISS',
+46 verbose headers   'x-cache-hits': '0',
+46 verbose headers   'x-timer': 'S1505153379.360542,VS0,VE892',
+46 verbose headers   vary: 'Accept-Encoding' }
+47 silly get cb [ 200,
+47 silly get   { 'content-type': 'application/json',
+47 silly get     server: 'nginx/1.10.3',
+47 silly get     'last-modified': 'Sat, 12 Aug 2017 22:57:15 GMT',
+47 silly get     etag: 'W/"598f87cb-a281"',
+47 silly get     'content-encoding': 'gzip',
+47 silly get     'cache-control': 'max-age=0',
+47 silly get     'transfer-encoding': 'chunked',
+47 silly get     'accept-ranges': 'bytes',
+47 silly get     date: 'Mon, 11 Sep 2017 18:09:40 GMT',
+47 silly get     via: '1.1 varnish',
+47 silly get     connection: 'keep-alive',
+47 silly get     'x-served-by': 'cache-sin18035-SIN',
+47 silly get     'x-cache': 'MISS',
+47 silly get     'x-cache-hits': '0',
+47 silly get     'x-timer': 'S1505153379.360542,VS0,VE892',
+47 silly get     vary: 'Accept-Encoding' } ]
+48 verbose get saving @uirouter/angularjs to C:\Users\DELL\AppData\Roaming\npm-cache\registry.npmjs.org\_40uirouter_252fangularjs\.cache.json
+49 verbose correctMkdir C:\Users\DELL\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+50 silly fetchPackageMetaData Error: No compatible version found: @uirouter/angularjs@next
+50 silly fetchPackageMetaData Valid install targets:
+50 silly fetchPackageMetaData 1.0.6, 1.0.6-SNAPSHOT.20170812, 1.0.5, 1.0.5-SNAPSHOT.20170711, 1.0.4, 1.0.3, 1.0.1, 1.0.0
+50 silly fetchPackageMetaData
+50 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:178:16)
+50 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+50 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\lib\utils\pulse-till-done.js:20:8
+50 silly fetchPackageMetaData     at saved (C:\Program Files\nodejs\node_modules\npm\lib\cache\caching-client.js:174:7)
+50 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:241:18
+50 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+50 silly fetchPackageMetaData  error for @uirouter/angularjs@next { Error: No compatible version found: @uirouter/angularjs@next
+50 silly fetchPackageMetaData Valid install targets:
+50 silly fetchPackageMetaData 1.0.6, 1.0.6-SNAPSHOT.20170812, 1.0.5, 1.0.5-SNAPSHOT.20170711, 1.0.4, 1.0.3, 1.0.1, 1.0.0
+50 silly fetchPackageMetaData
+50 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:178:16)
+50 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+50 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\lib\utils\pulse-till-done.js:20:8
+50 silly fetchPackageMetaData     at saved (C:\Program Files\nodejs\node_modules\npm\lib\cache\caching-client.js:174:7)
+50 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:241:18
+50 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15) code: 'ETARGET' }
+51 silly rollbackFailedOptional Starting
+52 silly rollbackFailedOptional Finishing
+53 silly runTopLevelLifecycles Finishing
+54 silly install printInstalled
+55 verbose stack Error: No compatible version found: @uirouter/angularjs@next
+55 verbose stack Valid install targets:
+55 verbose stack 1.0.6, 1.0.6-SNAPSHOT.20170812, 1.0.5, 1.0.5-SNAPSHOT.20170711, 1.0.4, 1.0.3, 1.0.1, 1.0.0
+55 verbose stack
+55 verbose stack     at pickVersionFromRegistryDocument (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:178:16)
+55 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+55 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\utils\pulse-till-done.js:20:8
+55 verbose stack     at saved (C:\Program Files\nodejs\node_modules\npm\lib\cache\caching-client.js:174:7)
+55 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:241:18
+55 verbose stack     at FSReqWrap.oncomplete (fs.js:123:15)
+56 verbose cwd E:\Denz\WorkSpace\Billing_Portal
+57 error Windows_NT 6.3.9600
+58 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+59 error node v6.11.3
+60 error npm  v3.10.10
+61 error code ETARGET
+62 error notarget No compatible version found: @uirouter/angularjs@next
+62 error notarget Valid install targets:
+62 error notarget 1.0.6, 1.0.6-SNAPSHOT.20170812, 1.0.5, 1.0.5-SNAPSHOT.20170711, 1.0.4, 1.0.3, 1.0.1, 1.0.0
+63 error notarget This is most likely not a problem with npm itself.
+63 error notarget In most cases you or one of your dependencies are requesting
+63 error notarget a package version that doesn't exist.
+63 error notarget
+63 error notarget It was specified as a dependency of 'billingportal'
+64 verbose exit [ 1, true ]
